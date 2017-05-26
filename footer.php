@@ -1,13 +1,17 @@
 	<footer>
 		<div class="rodape">
-			<div class="conteudo-contato-top">
+			<div class="rodape-header">
 				<img src="img/index/logo-acreprev.png" style="margin-top:30px;margin-left: 10px;"/>
 			</div>
+			<div class="rodape-conteudo">
 				<div class="conteudo-local">
 					<p><b>Instituto de Previdência do Estado do Acre</b></p>
 					<p>Rua Benjamin Constant, nº 351, Cerâmica</p>
 					<p>CEP 69905-072</p>
 					<p>Rio Branco/AC-Brasil</p>
+				</div>
+				<div class="conteudo-crp">
+					<img src="img/index/crp.png" alt="logo CRP" />
 				</div>
 				<div class="separador">
 				<hr style="height:80px;width:2px;background-color:#00b16a;">
@@ -23,9 +27,10 @@
 				<span style="color:#fff;font-family: 'calibri-light';">Facebook</span>
 
 				</div>
-				<div class="conteudo-contato-right">
+				<div class="conteudo-logo-governo">
 					<a href="http://www.ac.gov.br"><img src="img/index/logo-governo.png" /></a>
 				</div>
+			</div>	
 		</div>
 		
 	</footer>
