@@ -1,0 +1,57 @@
+/* external css: flickity.css */
+@font-face {
+	font-family: calibri-italic;
+	src: url(../fonts/calibri-italic.ttf);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+.gallery {
+height:240px;
+width: 96%;
+padding-left:7%;
+padding-right:4.5%;
+margin-left:2%;
+}
+.gallery-cell {
+  background-color: white;
+  height: 100%;
+  width: 30%;
+  margin-left:3.4%;
+  padding: 5.8%;
+  border-radius:15px;
+}
+.gallery-cell:hover{background-image: url("../img/efeito01.png");background-color: #f0f0f0;}
+.gallery-cell a:hover{color:#fff;}
+.gallery-cell img{margin-bottom: 10px;}
+.gallery-cell p{font-family:'calibri-italic';font-size: 0.8rem;color:#7b7c7a;text-align: center;}
+
+
+
+@media screen and (max-width:480px){
+.gallery {
+max-height:180px;
+width: 75%;
+margin:0 auto;
+}
+}
+@media screen and (max-width:480px){
+.gallery-cell {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  border-radius:15px;
+  margin-left: 50%;
+}
+}
+@media screen and (max-width:480px){
+.gallery-cell p{
+	font-size: 1.2rem;
+	color:#7b7c7a;text-align: center;}
+}
+}
