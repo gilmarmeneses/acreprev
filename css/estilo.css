@@ -210,7 +210,7 @@ main{
 	height: 950px;
 }
 footer {
-	height: 235px;
+	height: 240px;
 	background: #1e824c;
 	clear: both;
 	position: relative;
@@ -218,17 +218,25 @@ footer {
 }
 
 .rodape {
-	height: 235px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 240px;
 	margin: 0 auto;
 }
 .rodape img{margin-top: 5px;}
-.conteudo-contato-top {
-	height: 115px;
+.rodape-header{
+	height: 50%;
+	width: 100%;
+}
+.rodape-conteudo{
+	display: flex;
+	width: 100%;
+	height: 50%;
 }
 .conteudo-local {
-	height: 120px;
-	width: 49.5%;
-	float: left;
+	height: 110px;
+	width: 49.0625%;
 }
 
 .conteudo-local p {
@@ -237,24 +245,25 @@ footer {
 	font-size: 16px;
 	margin-left: 10px;
 }
-
+.conteudo-crp{
+	margin-right: 10px;
+	height: 110px;
+	width:9.765625%;
+}
 .conteudo-contato {
-	height: 120px;
+	height: 110px;
 	padding-left: 10px;
-	width: 310px;
-	float: left;
+	width: 32.59375%;
 }
 
-.conteudo-contato-right {
-	height: 120px;
-	width: 180px;
-	float: right;
+.conteudo-logo-governo {
+	height: 110px;
+	width: 17.578125%;
 }
 
 .separador {
 	height: 120px;
 	width: 2px;
-	float: left;
 }
 
 main,.conteiner,.servicos,.beneficios-conteiner,.rodape{max-width: 1024px;}
