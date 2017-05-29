@@ -59,9 +59,10 @@ h4{
 	margin: 0 auto;
 	display: flex;
 }
-
-.logo {
-	height: 160px;
+.logo{
+ height: 160px;
+ width: 160px;
+ margin: 15px;
 }
 
 .menu {
@@ -144,7 +145,12 @@ h4{
 	font-size: 16px;
 	cursor: text;
 }
-
+.hr-cabecalho{
+	width: 100%;background-color: #3a9842;height: 6px;position: absolute;
+}
+.hr-cab{width: 100%;height: 6px;position: absolute;}
+#hr-line1{background-color: #3a9842;bottom: 5%;}
+#hr-line2{background-color: #c6c918;bottom: 0;}
 .drop-desc {
 	height: 30px;
 	padding-top: 5px;
@@ -164,12 +170,18 @@ main{
 	min-height:40%;
 	margin: 0 auto;
 }
+#slideshow{width: 100%;height: 400px;margin:0 auto;position: relative;}
+#slideshow>img{width: 100%;height: 100%;position: absolute;}
+#slideshow>.btn{position: absolute;width: 50px;height: 50px;border-radius: 25px;top:40%;
+cursor:pointer;background: transparent;color: white;font-size: 20px;border:none;}
+#slideshow>#btn1:hover{box-shadow: 5px 0 15px 0 white;}
+#slideshow>#btn2:hover{box-shadow: -5px 0 15px 0 white;}
+#slideshow>#btn2{position: relative;float:right;}
 .conteudo{display: flex;justify-content: space-between;}
 .conteudo,.destaque-categoria{padding:0.5% 2.5%;}
 .destaque-categoria{line-height: 40px;}
 .destaque-categoria a{font-size:1rem;color:#999;}
 .destaque-categoria span{font-size: 1.3rem;}
-.slideshow{max-height:60%;background-size: cover;}
 .noticias{height:450px;width:77.1122%;} /* 760px */
 	.noticias p{color:#888;font-family: 'calibri';}
 	.noticias header,.servicos header{padding: 20px 0;}
@@ -231,7 +243,7 @@ footer {
 }
 .rodape-conteudo{
 	display: flex;
-	width: 100%;
+	width: 100%;		
 	height: 50%;
 }
 .conteudo-local {
@@ -270,6 +282,27 @@ main,.conteiner,.servicos,.beneficios-conteiner,.rodape{max-width: 1024px;}
 .cabecalho,.menu-desc,.menu-nav,.drop-desc,.conteudo,.destaque-categoria,.noticias header,.servicos header,
 .services-all,.beneficios,footer,.conteudo-contato-top{width: 100%;}
 
+
+@media only screen and (max-width: 1020px){
+#slideshow .slides{
+ height: 400px;
+}
+}
+@media only screen and (max-width: 922px){
+#slideshow,#slideshow .slides{
+ height: 350px;
+}
+}
+@media only screen and (max-width: 768px){
+#slideshow,#slideshow .slides{
+ height: 270px;
+}
+}
+@media only screen and (max-width: 480px){
+#slideshow,#slideshow .slides{
+ height: 150px;
+}
+}
 
 @media screen and (max-width:480px) {
 html {

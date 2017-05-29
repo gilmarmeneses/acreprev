@@ -1,0 +1,23 @@
+@media screen and (max-width: 640px){
+.menu{display: none;background-color: red;}
+.cabecalho{height: 120px;}
+.logo{width: 80px;}
+.hr-cab{height: 4px;}
+#hr-line1{background-color: #3a9842;bottom: 5%;}
+#hr-line2{background-color: #c6c918;bottom: 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
