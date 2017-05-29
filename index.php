@@ -1,8 +1,14 @@
 ﻿<?php include_once('header.php');?>
 
-	<section class="slideshow">
-		<img src="img/slideshow/slideshowx1920.jpg" alt="Prédio Acreprevidência" />
-	</section><br/><br/>
+	<section id="slideshow">
+		<img class="slides" src="img/slide/1.jpg" />
+		<img class="slides" src="img/slide/2.jpg" />
+		<img class="slides" src="img/slide/3.jpg" />
+		<img class="slides" src="img/slide/4.jpg" />
+		<img class="slides" src="img/slide/5.jpg" />
+		<button class="btn" onclick="plusIndex(-1)" id="btn1">&#10094;</button>
+		<button class="btn" onclick="plusIndex(1)" id="btn2">&#10095;</button>
+	</section>
 <main>	
 	<div class="destaque-categoria">
 		<span>NOTÍCIAS</span> | <a href="#">Ver mais</a>
