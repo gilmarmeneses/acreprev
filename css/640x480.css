@@ -1,15 +1,21 @@
 @media screen and (max-width: 640px){
 .menu{display: none;background-color: red;}
-.cabecalho{height: 120px;}
-.logo{width: 80px;}
+.cabecalho{height: 100px;line-height: 100%;}
+.logo{width: 60px;}
 .hr-cab{height: 4px;}
-#hr-line1{background-color: #3a9842;bottom: 5%;}
+#hr-line1{background-color: #3a9842;bottom: 6%;}
 #hr-line2{background-color: #c6c918;bottom: 0;}
-
-
-
-
-
+.destaque-categoria{width: 100%;}
+.hr-large-destaque-categoria{width: 100% !important;}
+main{display: flex;flex-direction: column;}
+.conteudo{flex-direction: column;height: 100%;}
+.noticias{width: 100% !important;height:auto;display: flex;flex-direction: column;}
+.noticias header{width: 100%;}
+.destaques-noticias{width: 100%;display: flex;flex-direction: column;}
+.noticias-dt{width: 100%;height: auto;}
+.hr-vertical{display: none;}
+.pagamento{width: 100%;height: auto;background-color: #fdfdfd;padding:5% 12%;margin-top: 5%;}
+.pagamento header{height: auto;}
 
 
 

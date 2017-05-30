@@ -5,7 +5,7 @@
 			</div>
 			<div class="rodape-conteudo">
 				<div class="conteudo-local">
-					<p><b>Instituto de Previdência do Estado do Acre</b></p>
+					<p style="font-family: ">Instituto de Previdência do Estado do Acre</p>
 					<p>Rua Benjamin Constant, nº 351, Cerâmica</p>
 					<p>CEP 69905-072</p>
 					<p>Rio Branco/AC-Brasil</p>
@@ -34,7 +34,8 @@
 		</div>
 		
 	</footer>
+</body>
+	<script src="js/slide.js"></script>
 	<script src='js/flickity.js'></script>
     <script src="js/index.js"></script>
-</body>
 </html>

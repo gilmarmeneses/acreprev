@@ -12,8 +12,8 @@
 <main>	
 	<div class="destaque-categoria">
 		<span>NOTÍCIAS</span> | <a href="#">Ver mais</a>
-		<hr style="width: 5%;color:#333;border-top: 5px solid #dbdbdb" />
-		<hr style="width: 70%;color:#333;border-top: 1px solid #dbdbdb" />
+		<hr class="hr-small-destaque-categoria" style="" />
+		<hr class="hr-large-destaque-categoria" style="width: 70%;border-top: 1px solid #dbdbdb" />
 	</div>
 
 	<div class="conteudo">
@@ -93,9 +93,9 @@
   <!-- Flickity HTML init -->
 			<div class="gallery js-flickity">
 				<div class="gallery-cell"><a href="#"><img src="img/servicos/box1.png" /><p>Comprovante de rendimentos</p><p>Aposentados e Pensionistas</p></a></div>
-			  <div class="gallery-cell"><a href="#"><img src="img/servicos/box1.png" /><p>Comprovante de rendimentos</p><p>Aposentados e Pensionistas</p></a></div>
-			  <div class="gallery-cell"><a href="#"><img src="img/servicos/box1.png" /><p>Comprovante de rendimentos</p><p>Aposentados e Pensionistas</p></a></div>
-			  <div class="gallery-cell"><a href="#"><img src="img/servicos/box1.png" /><p>Comprovante de rendimentos</p><p>Aposentados e Pensionistas</p></a></div>
+			  <div class="gallery-cell"><a href="#"><img src="img/servicos/box2.png" /><p>Comprovante de rendimentos</p><p>Aposentados e Pensionistas</p></a></div>
+			  <div class="gallery-cell"><a href="#"><img src="img/servicos/box3.png" /><p>Comprovante de rendimentos</p><p>Aposentados e Pensionistas</p></a></div>
+			  <div class="gallery-cell"><a href="#"><img src="img/servicos/box2.png" /><p>Comprovante de rendimentos</p><p>Aposentados e Pensionistas</p></a></div>
 			</div>
 	</section>
 </section>

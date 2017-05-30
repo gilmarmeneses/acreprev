@@ -29,5 +29,5 @@ function autoSlide(){
 	if(index > x.length){index = 1}	
 	x[index-1].style.display = "block";
 index++;
-	setTimeout(autoSlide,5000);
+	setTimeout(autoSlide,9000);
 }

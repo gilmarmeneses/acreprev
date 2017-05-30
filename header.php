@@ -5,17 +5,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 <title>Acreprevidência - Instituto de Previdência do Estado do Acre</title>
 	<link rel="stylesheet" href="css/estilo.css"/>
-	<link rel="stylesheet" media="screen and (min-width:1280px)" href="css/1280x1024.css"/>
-	<link rel="stylesheet" media="screen and (min-width:1024px)" href="css/1024x768.css"/>
-	<link rel="stylesheet" media="screen and (min-width:800px)" href="css/800x600.css"/>
-	<link rel="stylesheet" media="screen and (min-width:640px)" href="css/640x480.css"/>
+	<link rel="stylesheet" media="screen and (min-width:1024px) and (max-width:1280px)" href="css/1280x1024.css"/>
+	<link rel="stylesheet" media="screen and (min-width:800px) and (max-width:1024px)" href="css/1024x768.css"/>
+	<link rel="stylesheet" media="screen and (min-width:640px) and (max-width:800px)" href="css/800x600.css"/>
+	<link rel="stylesheet" media="screen and (min-width:0px) and (max-width:640px)" href="css/640x480.css"/>
 	      <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="css/flickity.css">
 	<link rel="shortcut icon" href="img/favicon.ico"/>
 	<header class="cabecalho">
 		<header class="conteiner">
 			<div class="logo">
-				<a href="http://www.acreprevidencia.ac.gov.br/home/index.php"><img src="img/index/logo.png" alt="Prédio Acreprevidência" height="140" style="margin:12px;"/></a>
+				<a href="http://www.acreprevidencia.ac.gov.br/home/index.php"><img src="img/index/logo.png" alt="Prédio Acreprevidência" /></a>
 			</div>
 			<div class="menu">
 				<div class="menu-desc">
@@ -109,8 +109,8 @@
 				</nav>
 			</div>
 		</header>
-		<hr style="width: 100%;background-color: #3a9842;height: 6px;position: absolute;bottom:5%;"/>
-		<hr style="width: 100%;background-color: #c6c918;height: 6px;position: absolute;bottom:0;"/>
+		<hr id="hr-line1" class="hr-cab" />
+		<hr id="hr-line2" class="hr-cab" />
 	</header>
 </head>
 <body>

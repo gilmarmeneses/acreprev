@@ -182,6 +182,10 @@ cursor:pointer;background: transparent;color: white;font-size: 20px;border:none;
 .destaque-categoria{line-height: 40px;}
 .destaque-categoria a{font-size:1rem;color:#999;}
 .destaque-categoria span{font-size: 1.3rem;}
+.hr-small-destaque-categoria,.hr-large-destaque-categoria{color:#333;}
+.hr-small-destaque-categoria{width: 5%;border-top: 5px solid #dbdbdb;}
+.hr-large-destaque-categoria{width: 70%;border-top: 1px solid #dbdbdb;}
+
 .noticias{height:450px;width:77.1122%;} /* 760px */
 	.noticias p{color:#888;font-family: 'calibri';}
 	.noticias header,.servicos header{padding: 20px 0;}
