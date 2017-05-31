@@ -24,21 +24,8 @@
 			<hr style="background-color: #000;width:82%;height: 1px;" />
 				<nav class="menu-nav">
 					<ul>
-						<li><a href="http://www.acreprevidencia.ac.gov.br/home/index.php" class="li-index">INÍCIO</a></li>
-						<li>SERVIÇOS
-							<ul>
-								<div class="drop-desc">
-									<span>SERVIÇOS</span>
-								</div>
+						<li><a class="nav-link" href="index.php" class="li-index">INÍCIO</a></li>
 
-								<a href="http://acreprevidencia.ac.gov.br/aplicacoes/contra_cheque/acessar.php"><li>Contracheque Online</li></a>
-								<a href="http://acreprevidencia.ac.gov.br/aplicacoes/contra_cheque/acessar.php"><li>Cédula C</li></a>								
-								<a href="http://acreprevidencia.ac.gov.br:8080/CENSO"><li>Censo Previdenciário</li></a>
-								<a href="http://acreprevidencia.ac.gov.br/aplicacoes/boletoDAP/aviso.htm"><li>DAP</li></a>
-								<a href="http://www.acreprevidencia.ac.gov.br/aplicacoes/folha/login.php"><li>Gestão Folha</li></a>
-								<a href="http://www.acreprevidencia.ac.gov.br/aplicacoes/sisap/index.php"><li>Simulação de Aposentadoria</li></a>
-							</ul>
-						</li>
 						<li>INSTITUCIONAL
 							<ul>
 								<div class="drop-desc">
@@ -46,7 +33,7 @@
 								</div>
 								<a href="#"><li>Sobre o Instituto
 									<ul>
-										<a href="http://www.acreprevidencia.ac.gov.br/institucional/historico.php"><li>Histórico</li></a>
+										<a href="historico.php"><li>Histórico</li></a>
 										<a href="http://www.acreprevidencia.ac.gov.br/institucional/missao.php"><li>Missão</li></a>
 										<a href="http://www.acreprevidencia.ac.gov.br/institucional/estrutura.php"><li>Estrutura</li></a>
 										<a href="http://www.acreprevidencia.ac.gov.br/institucional/diretor_presidente.php"><li>Diretor-Presidente</li></a>
@@ -61,7 +48,22 @@
 								<a href="http://www.acreprevidencia.ac.gov.br/institucional/movimento_financeiro.php"><li>Movimento Financeiro</li></a>
 							</ul>
 						</li>
-						<li>INFORMATIVOS
+						<li class="nav-link">SERVIÇOS
+							<ul>
+								<div class="drop-desc">
+									<span>Serviços</span>
+								</div>
+
+								<a href="http://acreprevidencia.ac.gov.br/aplicacoes/contra_cheque/acessar.php"><li>Contracheque Online</li></a>
+								<a href="http://acreprevidencia.ac.gov.br/aplicacoes/contra_cheque/acessar.php"><li>Cédula C</li></a>								
+								<a href="http://acreprevidencia.ac.gov.br:8080/CENSO"><li>Censo Previdenciário</li></a>
+								<a href="http://acreprevidencia.ac.gov.br/aplicacoes/boletoDAP/aviso.htm"><li>DAP</li></a>
+								<a href="http://www.acreprevidencia.ac.gov.br/aplicacoes/folha/login.php"><li>Gestão Folha</li></a>
+								<a href="http://www.acreprevidencia.ac.gov.br/aplicacoes/sisap/index.php"><li>Simulação de Aposentadoria</li></a>
+							</ul>
+						</li>
+
+						<li class="nav-link">INFORMATIVOS
 							<ul>
 								<div class="drop-desc">
 									<span>Informativos</span>
@@ -72,7 +74,7 @@
 								<a href="http://www.acreprevidencia.ac.gov.br/servicos/publicacoes.php"><li>Publicações</li></a>
 							</ul>
 						</li>
-						<li>BENEFÍCIOS
+						<li class="nav-link">BENEFÍCIOS
 							<ul>
 								<div class="drop-desc">
 									<span>Benefícios</span>
@@ -95,7 +97,7 @@
 								<a href="http://www.acreprevidencia.ac.gov.br/beneficios/concessoes.php"><li>Histórico de Concedidos</li></a>
 							</ul>
 						</li>
-						<li>LEGISLAÇÃO
+						<li class="nav-link">LEGISLAÇÃO
 							<ul>
 								<div class="drop-desc">
 									<span>Legislação</span>

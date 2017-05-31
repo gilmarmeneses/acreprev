@@ -11,7 +11,7 @@
 	</section>
 <main>	
 	<div class="destaque-categoria">
-		<span>NOTÍCIAS</span> | <a href="#">Ver mais</a>
+		<span>Notícias</span><a href="#">Ver mais</a>
 		<hr class="hr-small-destaque-categoria" style="" />
 		<hr class="hr-large-destaque-categoria" style="width: 70%;border-top: 1px solid #dbdbdb" />
 	</div>
@@ -28,16 +28,18 @@
 			<section class="destaques-noticias">
 				<article class="noticias-dt">
 				<a href="#">
-						<h2>"Recursos previdenciários de regimes próprios são rigorosamente fiscalizados".</h2>
+						<h2>Recursos previdenciários de regimes próprios são rigorosamente fiscalizados.</h2>
 							<p>02/01/2017</p>
 					<img src="img/noticias/img-noticias-principal.png" /></a>
 
 				</article>
 				<hr style="max-height:95%;border-left: 1px solid #dbdbdb;margin: 0 12px;" />
 				<article class="noticias-dt">
-						<h2>Lider do Governo destaca que Acreprevidência não deixará de pagar pensionistas e aposentados</h2>
+					<a href="#">
+						<h2>Líder do Governo destaca que Acreprevidência não deixará de pagar pensionistas e aposentados</h2></a>
 					<p>01/01/2017</p><br /><br />
-						<h3>Lider do Governo destaca que Acreprevidência não deixará de pagar pensionistas e aposentados</h3>
+					<a href="#">
+						<h3>Líder do Governo destaca que Acreprevidência não deixará de pagar pensionistas e aposentados</h3></a>
 						<p>01/01/2017</p>
 				</article>
 			</section>	
@@ -83,7 +85,7 @@
 
 
 	<div class="destaque-categoria">
-		<span>SERVIÇOS</span>
+		<span>Serviços</span>
 		<hr style="width: 5%;color:#333;border-top: 5px solid #dbdbdb" />
 		<hr style="width: 100%;color:#333;border-top: 1px solid #dbdbdb" />
 	</div>
@@ -102,7 +104,7 @@
 <section class="beneficios">
 	<section class="beneficios-conteiner">
 	<div class="destaque-categoria">
-		<span>BENEFÍCIOS</span> | <a href="#">Ver mais</a>
+		<span>Benefícios</span><a href="#">Ver mais</a>
 		<hr style="width: 5%;color:#333;border-top: 5px solid #dbdbdb" />
 		<hr style="width: 100%;color:#333;border-top: 1px solid #dbdbdb" />
 	</div>
