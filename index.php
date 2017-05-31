@@ -101,44 +101,53 @@
 			</div>
 	</section>
 </section>
-<section class="beneficios">
-	<section class="beneficios-conteiner">
+<div class="wrap-beneficios">
+<div class="conteudo-beneficios">
 	<div class="destaque-categoria">
 		<span>Benefícios</span><a href="#">Ver mais</a>
 		<hr style="width: 5%;color:#333;border-top: 5px solid #dbdbdb" />
 		<hr style="width: 100%;color:#333;border-top: 1px solid #dbdbdb" />
 	</div>
-	<!--
-	<ul>
-		<li class="beneficios-mes">ABRIL 2017</li>
-		<li>Concessões no mês</li>
-		<li>Aposentadorias</li>
-		<li>Pensões</li>
-	</ul>
-		<hr />
-	<ul>
-		<li>Pagamentos no mês</li>
-		<li>Aposentadorias</li>
-		<li>R$ 45.463.286,53</li>
-		<li>Pensões:</li>
-		<li>R$ 6.208.637,08</li>
-		<li>Total</li>
-		<li>R$ 51.671.823,61</li>
-	</ul> 
-	</hr >
-	<ul>
-		<li class="beneficios-mes">MARÇO 2017</li>
-		<li>Concessões no mês</li>
-		<li>Aposentadorias</li>
-		<li>Pensões</li>
-		<li>Pagamentos no mês</li>
-		<li>Aposentadorias</li>
-		<li>R$ 45.463.286,53</li>
-		<li>Pensões: 2860</li>
-		<li>R$ 6.208.537,08</li>
-		<li>Total: 13.329</li>
-		<li>R$ 51.671.823,61</li>
-	</ul> -->
-	</section>	
+
+
+<section class="beneficios">
+	<div class="box-header-abril">
+		<h4>ABRIL 2017</h4>
+		<ul class="box-beneficio">
+			<li><strong>Concessões no mês</strong></li>
+			<hr style="border-bottom: 1px dashed #dbdbdb;" />
+			<li>Aposentadorias: 94</li>
+			<li>Pensões: 14</li>
+		</ul>
+
+		<ul class="box-beneficio">
+			<li><strong>Pagamentos no mês</strong></li>
+			<hr style="border-bottom: 1px dashed #dbdbdb;" />
+			<li>Aposentadorias: R$ 45.463.286,53</li>
+			<li>Pensões: R$ 6.208.637,08</li>
+			<li>Total: R$ 51.671.823,61</li>
+		</ul> 
+
+	</div>
+	<div class="box-header-marco">
+		<h4>MARÇO 2017</h4>
+		<ul class="box-beneficio">
+			<li><strong>Concessões no mês</strong></li>
+			<hr style="border-bottom: 1px dashed #dbdbdb;" />
+			<li>Aposentadorias: 94</li>
+			<li>Pensões: 14</li>
+		</ul>
+
+		<ul class="box-beneficio">	
+			<li><strong>Pagamentos no mês</strong></li>		
+			<hr style="border-bottom: 1px dashed #dbdbdb;" />
+			<li>Aposentadorias: R$ 45.463.286,53</li>
+			<li>Pensões: R$ 6.208.537,08</li>
+			<li><span>Total:</span> R$ 51.671.823,61</li>
+		</ul>
+
+	</div>
 </section>
+</div>
+</div>
 <?php include_once('footer.php');?>
